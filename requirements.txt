@@ -1,0 +1,6 @@
+Cython==0.23.5
+thriftpy==0.3.7
+SQLAlchemy==1.0.12
+arrow==0.7.0
+PyYAML==3.11
+selenium==2.53.6

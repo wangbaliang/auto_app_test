@@ -1,0 +1,29 @@
+mysql_db:
+  easyweb:
+    url: "mysql://?charset=utf8"
+    pool_size: 5
+    pool_recycle: 1800
+    echo: False
+
+  web_mobile:
+    url: "mysql:?charset=utf8"
+    pool_size: 5
+    pool_recycle: 1800
+    echo: False
+
+thrift_service:
+  tutor:
+    host: "0.0.0.0"
+    port: 9220
+  upland_server:
+    host: "127.0.0.1"
+    port: 9210
+
+smtp:
+  host: ""
+  port: 25
+  user_name: websendjiandan100.cn"
+  password: ""
+
+report_email:
+  - ""

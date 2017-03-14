@@ -1,0 +1,15 @@
+
+* *     * * *       root    /usr/ET/projects/etutor/sh/cron/assign_student.sh           >> /usr/local/logs/etutorservice/cron1.log 2>&1
+* *     * * *       root    /usr/ET/projects/etutor/sh/cron/invite_notify_class.sh      >> /usr/local/logs/etutorservice/cron2.log 2>&1
+
+* 0-15,23 * * *       root    /usr/ET/projects/etutor/sh/cron/clazz_check_on_time.sh      >> /usr/local/logs/etutorservice/cron3.log 2>&1
+
+#* 0-12  * * *       root    /usr/ET/projects/etutor/sh/cron/clazz_not_morning_notify.sh >> /usr/local/logs/etutorservice/cron4.log 2>&1
+
+0 12    * * *       root    /usr/ET/projects/etutor/sh/cron/clazz_morning_notify.sh     >> /usr/local/logs/etutorservice/cron5.log 2>&1
+0 16    * * *       root    /usr/ET/projects/etutor/sh/cron/invite_create.sh            >> /usr/local/logs/etutorservice/cron6.log 2>&1
+0 9,14  * * *       root    /usr/ET/projects/etutor/sh/cron/invite_notify_test.sh       >> /usr/local/logs/etutorservice/cron7.log 2>&1
+
+* *     * * *       root    /usr/ET/projects/etutor/sh/cron/invite_check.sh             >> /usr/local/logs/etutorservice/cron8.log 2>&1
+* *     * * *       root    /usr/ET/projects/etutor/sh/cron/invite_exec.sh              >> /usr/local/logs/etutorservice/cron9.log 2>&1
+* *     * * *       root    /usr/ET/projects/etutor/sh/cron/sms_send.sh                 >> /usr/local/logs/etutorservice/cron10.log 2>&1
